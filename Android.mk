@@ -1,4 +1,4 @@
-ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),legacy)
+ifeq ($(call my-dir),$(call project-path-for,qcom-media))
 
 include $(call all-subdir-makefiles)
 
